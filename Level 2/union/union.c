@@ -21,11 +21,9 @@ int main(int argc, char **argv)
 	
 	if (argc == 3)
 	{
-		while(argv[1][i] != '\0')
-		{
+		while(argv[1][i])
 			i++;
-		}
-		while(argv[2][j] != '\0')
+		while(argv[2][j])
 		{
 			argv[1][i] = argv[2][j];
 			i++;
