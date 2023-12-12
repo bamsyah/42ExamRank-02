@@ -23,7 +23,6 @@ void alpha_mirror(char *str)
 
 int main (int ac, char **av)
 {
-    int i = -1;
     if (ac == 2)
         alpha_mirror(av[1]);
     write(1, "\n", 1);
